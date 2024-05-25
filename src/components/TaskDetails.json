@@ -1,0 +1,42 @@
+[
+  {
+      "id": 1,
+      "AssignedBy": "Prof. Green",
+      "Task": "Research paper on Climate Change",
+      "Desc": "Climate change poses significant challenges to ecosystems and human societies, .",
+      "Due": "15-06-2024",
+      "Task_s": "Completed"
+  },
+  {
+      "id": 2,
+      "AssignedBy": "Dr. Waters",
+      "Task": "Presentation on Biodiversity Hotspots",
+      "Desc": "Biodiversity hotspots are regions with high species diversity and endemism,.",
+      "Due": "25-06-2024",
+      "Task_s": "In Progress"
+  },
+  {
+      "id": 3,
+      "AssignedBy": "Ms. Meadows",
+      "Task": "Reflection Essay on Wilderness Therapy",
+      "Desc": "Wilderness therapy uses nature to promote personal growth and mental well-being.",
+      "Due": "05-07-2024",
+      "Task_s": "Pending"
+  },
+  {
+      "id": 4,
+      "AssignedBy": "Dr. Forest",
+      "Task": "Report on Deforestation and Its Impact on Biodiversity",
+      "Desc": "Deforestation, driven by agriculture, logging, and urbanization, ",
+      "Due": "20-07-2024",
+      "Task_s": "Not Started"
+  },
+  {
+      "id": 5,
+      "AssignedBy": "Prof. Sky",
+      "Task": "Essay on the Importance of Dark Sky Preserves",
+      "Desc": "Dark sky preserves are areas free from light pollution, ideal for stargazing and astronomical research. ",
+      "Due": "10-08-2024",
+      "Task_s": "Not Started"
+  }
+]

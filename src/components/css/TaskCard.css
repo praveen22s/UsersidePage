@@ -1,0 +1,215 @@
+:root{
+    --background:#4c58b1;
+    --textarea:#c0cffd;
+    --sidebar:#7384de;
+    --button:#f8cfcf;
+    --buttontext:#ba2828;
+    --text:black;
+    
+}
+
+.logo
+{
+    height: 0.5px;
+    margin-top: 20px;
+    margin-left: 20px;
+    width: 100px;
+}
+.custom-dialog {
+    
+    
+}
+
+.custom-dialog .MuiPaper-root {
+    border-radius: 2%;
+    background-color: #4c58b1;
+}
+
+.boxassign
+{
+    margin-top: 12%;
+    width: 77%;
+    height: 70px;
+    background-color: var(--textarea);
+    position: relative;
+    margin-left:15%;
+    
+}
+.boxassign:after
+{
+    content: '';
+    position: absolute;
+    width:2%;
+    left:0;
+    top: 0;
+    height:100%;
+    background: var(--sidebar);
+}
+
+.texts
+{
+    padding-top: 1.10%;
+    text-align: start;
+    padding-left: 2.5%;
+    font: size 0.95em;
+    font-family: 'Poppins';
+    font-weight: bold;
+
+}
+.boxassign
+{
+    margin-top: 12%;
+    width: 77%;
+    height: 70px;
+    background-color: var(--textarea);
+    position: relative;
+    margin-left:15%;
+
+}
+.boxassign:after
+{
+    content: '';
+    position: absolute;
+    width:2%;
+    left:0;
+    top: 0;
+    height:100%;
+    background: var(--sidebar);
+}
+.boxtask
+{
+    margin-top: 20px;
+    width: 77%;
+    height: 70px;
+    background-color: var(--textarea);
+    position: relative;
+    margin-left:15%;
+
+}
+.boxtask:after
+{
+    content: '';
+    position: absolute;
+    width:2%;
+    left:0;
+    top:0;
+    height:100%;
+    background: var(--sidebar);
+}
+.boxdesc {
+    margin-top: 20px;
+    margin-right: -20px;
+    width: 77%;
+    height: 150px;
+    background-color: var(--textarea);
+    position: relative;
+    overflow: auto;
+    margin-left: 15%;
+}
+
+.boxdesc:after {
+    content: '';
+    position: absolute;
+    width: 2%;
+    left: 0;
+    top: 0;
+    height:100%;
+    background: var(--sidebar);
+    pointer-events: none; /* Ensures the pseudo-element doesn't interfere with user interactions */
+}
+
+
+
+.boxdate
+{
+    margin-top: 20px;
+    margin-right: -20px;
+    width: 77%;
+    height: 70px;
+    background-color: var(--textarea);
+    position: relative;
+    margin-left:15%;
+
+}
+.boxdate:after
+{
+    content: '';
+    position: absolute;
+    width:2%;
+    left:0;
+    top:0;
+    height:100%;
+    background: var(--sidebar);
+}
+.boxstatus
+{
+    margin-top: 20px;
+    margin-right: -20px;
+    width: 77%;
+    height: 70px;
+    background-color: var(--textarea);
+    position: relative;
+    margin-left:15%;
+
+}
+.boxstatus:after
+{
+    content: '';
+    position: absolute;
+    width:2%;
+    left:0;
+    top:0;
+    height:100%;
+    background: var(--sidebar);
+}
+
+
+.button-container {
+    margin-top: 3%;
+    margin-right: 2%;
+    display: flex;
+    justify-content: flex-end;
+    flex:1;
+}
+.item {
+
+    margin: 10px;
+}
+.btk{
+    margin-top: 7%;
+    margin-left: 80%;
+
+}
+
+.button1
+{
+    background-color: #0d49ee;
+    border: none;
+    color:white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+.button1:hover
+{
+    background-color: #0044ff;
+    color: white;
+}
+.button
+{
+    background-color:var(--buttontext);
+    border: none;
+    color:white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+.button:hover
+{
+    background-color: #f50b0b;
+    color: white;
+}
